@@ -1,0 +1,41 @@
+body {
+  background-color: #212121;
+  color: #fff;
+  --key_height: 40px;
+  --key_min_width: 40px;
+  --key_margin: 10px;
+  --key_padding: 15px;
+
+  --key_border_radius: 40px;
+}
+
+.keydown {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: var(--key_height);
+  min-width: var(--key_min_width);
+  margin: var(--key_margin);
+  padding: var(--key_padding);
+
+  border-radius: var(--key_border_radius);
+  background-color: #3838b09f;
+  border: 1px solid #fff;
+}
+
+.keyup {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: var(--key_height);
+  min-width: var(--key_min_width);
+  margin: var(--key_margin);
+  padding: var(--key_padding);
+
+  border-radius: var(--key_border_radius);
+  background-color: #ffff0f;
+  border: 1px solid #ff0000;
+  color: #fff;
+}
