@@ -9,6 +9,21 @@ body {
   --key_border_radius: 40px;
 }
 
+.keypress {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: var(--key_height);
+  min-width: var(--key_min_width);
+  margin: var(--key_margin);
+  padding: var(--key_padding);
+
+  border-radius: var(--key_border_radius);
+  background-color: #3838b09f;
+  border: 1px solid #fff;
+}
+
 .keydown {
   display: inline-flex;
   align-items: center;
